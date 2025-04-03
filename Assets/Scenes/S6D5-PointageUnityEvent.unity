@@ -962,7 +962,8 @@ MonoBehaviour:
   m_fontAsset: {fileID: 11400000, guid: d716b165371176349966a7817d28fa1a, type: 2}
   m_sharedMaterial: {fileID: -748141548286139278, guid: d716b165371176349966a7817d28fa1a,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -748141548286139278, guid: d716b165371176349966a7817d28fa1a, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
