@@ -12,7 +12,7 @@ public class CreationAvecDelai : MonoBehaviour
         // �xecute la m�thode CreerObjet apr�s un d�lai de 5s
         Invoke("CreerObjet", 5f);
         // �xecute la m�thode CreerObjet apr�s un d�lai initiale de 3s et � chaque 1s apr�s
-       InvokeRepeating("CreerObjet", 3f, 0.001f);
+       InvokeRepeating("CreerObjet", 3f, 0.1f);
         // Cancelle tous les Invoke() actifs
         //CancelInvoke();
     }
